@@ -1,16 +1,16 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.resolvers = void 0;
-const { daoGroups, daoMembers, announcements, proposals, votes, transactions, profiles, } = require("../fakeData.json");
+const fakeData_json_1 = require("../fakeData.json");
 exports.resolvers = {
     Query: {
         getAllDAOGroups: (parent, args) => {
             const { daoId } = args;
-            return daoGroups.map((group) => (Object.assign(Object.assign({}, group), { members: daoMembers.filter((member) => member.daos.includes(group.address)) })));
+            return fakeData_json_1.daoGroups.map((group) => (Object.assign(Object.assign({}, group), { members: fakeData_json_1.daoMembers.filter((member) => member.daos.includes(group.address)) })));
         },
         getMembershipInfo: (parent, args) => {
             const { daoId, groupIds } = args;
-            const members = daoMembers.filter((member) => member.daos.some((groupId) => groupIds.includes(groupId)));
+            const members = fakeData_json_1.daoMembers.filter((member) => member.daos.some((groupId) => groupIds.includes(groupId)));
             return {
                 members: members.length,
                 approveds: members.filter(({ status }) => status === "approved")
@@ -24,7 +24,7 @@ exports.resolvers = {
         },
         getAnnouncements: (parent, args) => {
             const { daoId, groupIds, filterBy, limit } = args;
-            return announcements
+            return fakeData_json_1.announcements
                 .filter((announcement) => groupIds.includes(announcement.groupId))
                 .sort((a, b) => {
                 switch (filterBy) {
@@ -46,20 +46,20 @@ exports.resolvers = {
                 .slice(0, limit)
                 .map((item) => {
                 var _a;
-                return (Object.assign(Object.assign({}, item), { announcerAddress: item.announcer, announcerAvatar: (_a = daoMembers.find((member) => member.address === item.announcer)) === null || _a === void 0 ? void 0 : _a.avatar }));
+                return (Object.assign(Object.assign({}, item), { announcerAddress: item.announcer, announcerAvatar: (_a = fakeData_json_1.daoMembers.find((member) => member.address === item.announcer)) === null || _a === void 0 ? void 0 : _a.avatar }));
             });
         },
         getProposals: (parent, args) => {
             const { daoId, groupIds } = args;
-            return proposals.filter((proposal) => groupIds.includes(proposal.groupId));
+            return fakeData_json_1.proposals.filter((proposal) => groupIds.includes(proposal.groupId));
         },
         getVotes: (parent, args) => {
             const { daoId, groupIds } = args;
-            return votes.filter((vote) => groupIds.includes(vote.groupId));
+            return fakeData_json_1.votes.filter((vote) => groupIds.includes(vote.groupId));
         },
         getTransactions: (parent, args) => {
             const { daoId, groupIds } = args;
-            return transactions.filter((transaction) => groupIds.includes(transaction.groupId));
+            return fakeData_json_1.transactions.filter((transaction) => groupIds.includes(transaction.groupId));
         },
         getClaimStatus: (parent, args) => {
             const { daoId, groupIds } = args;
@@ -103,7 +103,7 @@ exports.resolvers = {
         },
         getMembers: (parent, args) => {
             const { daoId, groupId, status, keyword, sortBy, order } = args;
-            return daoMembers
+            return fakeData_json_1.daoMembers
                 .filter((member) => member.daos.includes(groupId) &&
                 (!status || member.status === status) &&
                 (!keyword || member.address === keyword))
@@ -136,11 +136,11 @@ exports.resolvers = {
         },
         getMember: (parent, args) => {
             const { address } = args;
-            return daoMembers.find((member) => member.address === address);
+            return fakeData_json_1.daoMembers.find((member) => member.address === address);
         },
         getMemberProfile: (parent, args) => {
             const { address } = args;
-            return profiles.find((profile) => profile.address === address);
+            return fakeData_json_1.profiles.find((profile) => profile.address === address);
         },
     },
 };

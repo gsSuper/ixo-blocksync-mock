@@ -1,4 +1,4 @@
-const {
+import {
   daoGroups,
   daoMembers,
   announcements,
@@ -6,7 +6,7 @@ const {
   votes,
   transactions,
   profiles,
-} = require("../fakeData.json");
+} from "../fakeData.json";
 
 export const resolvers = {
   Query: {
@@ -165,59 +165,42 @@ export const resolvers = {
       const { daoId, groupId, status, keyword, sortBy, order } = args;
       return daoMembers
         .filter(
-          (member: { daos: string | any[]; status: any; address: any }) =>
+          (member: { daos: string[]; status: string; address: string }) =>
             member.daos.includes(groupId) &&
             (!status || member.status === status) &&
             (!keyword || member.address === keyword)
         )
-        .sort(
-          (
-            a: {
-              name: string;
-              votingPower: number;
-              staking: number;
-              votes: number;
-              proposals: number;
-            },
-            b: {
-              name: string;
-              votingPower: number;
-              staking: number;
-              votes: number;
-              proposals: number;
-            }
-          ) => {
-            switch (sortBy) {
-              case "name":
-              default:
-                if (order === "desc") return b.name?.localeCompare(a.name);
-                return a.name?.localeCompare(b.name);
-              case "votingPower":
-                if (order === "desc") return b.votingPower - a.votingPower;
-                return a.votingPower - b.votingPower;
-              case "staking":
-                if (order === "desc") return b.staking - a.staking;
-                return a.staking - b.staking;
-              case "votes":
-                if (order === "desc") return b.votes - a.votes;
-                return a.votes - b.votes;
-              case "proposals":
-                if (order === "desc") return b.proposals - a.proposals;
-                return a.proposals - b.proposals;
-            }
+        .sort((a: any, b: any) => {
+          switch (sortBy) {
+            case "name":
+            default:
+              if (order === "desc") return b.name?.localeCompare(a.name);
+              return a.name?.localeCompare(b.name);
+            case "votingPower":
+              if (order === "desc") return b.votingPower - a.votingPower;
+              return a.votingPower - b.votingPower;
+            case "staking":
+              if (order === "desc") return b.staking - a.staking;
+              return a.staking - b.staking;
+            case "votes":
+              if (order === "desc") return b.votes - a.votes;
+              return a.votes - b.votes;
+            case "proposals":
+              if (order === "desc") return b.proposals - a.proposals;
+              return a.proposals - b.proposals;
           }
-        );
+        });
     },
-    getMember: (parent: unknown, args: { address: any }) => {
+    getMember: (parent: unknown, args: { address: string }) => {
       const { address } = args;
       return daoMembers.find(
-        (member: { address: any }) => member.address === address
+        (member: { address: string }) => member.address === address
       );
     },
-    getMemberProfile: (parent: unknown, args: { address: any }) => {
+    getMemberProfile: (parent: unknown, args: { address: string }) => {
       const { address } = args;
       return profiles.find(
-        (profile: { address: any }) => profile.address === address
+        (profile: { address: string }) => profile.address === address
       );
     },
   },
