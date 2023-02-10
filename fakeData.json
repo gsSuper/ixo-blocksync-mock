@@ -3,27 +3,27 @@
     {
       "address": "ixodaogroup1",
       "type": "Membership",
-      "title": "Marketing"
+      "title": "Group1"
     },
     {
       "address": "ixodaogroup2",
       "type": "Staking",
-      "title": "Development"
+      "title": "Group2"
     },
     {
       "address": "ixodaogroup3",
       "type": "Membership",
-      "title": "Investor"
+      "title": "Group3"
     },
     {
       "address": "ixodaogroup4",
       "type": "Staking",
-      "title": "Moderator"
+      "title": "Group4"
     },
     {
       "address": "ixodaogroup5",
       "type": "Membership",
-      "title": "Development"
+      "title": "Group5"
     }
   ],
   "daoMembers": [
@@ -147,7 +147,7 @@
     },
     {
       "avatar": "https://randomuser.me/api/portraits/men/25.jpg",
-      "address": "ixo12wgrrvmx5jx2mxhu6dvnfu3greamemnqfvx84a",
+      "address": "ixo12wgrrvmx5jx2mxhu6dvnfu3greamemnqfvx84c",
       "role": "Blockchain developer",
       "votingPower": 42.1,
       "staking": 6767,
@@ -176,7 +176,7 @@
     },
     {
       "avatar": "https://randomuser.me/api/portraits/men/85.jpg",
-      "address": "ixo12wgrrvmx5jx2mxhu6dvnfu3greamemnqfvx84a",
+      "address": "ixo12wgrrvmx5jx2mxhu6dvnfu3greamemnqfvx84b",
       "role": "Blockchain developer",
       "votingPower": 16.79,
       "staking": 979,
@@ -266,42 +266,56 @@
     {
       "title": "Extend the project duration target for educational xxx bbb ccc",
       "description": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
-      "timestamp": "2023-02-09T12:34:49.836Z",
-      "announcer": "https://randomuser.me/api/portraits/men/71.jpg",
+      "createdAt": "2023-01-15T21:06:46Z",
+      "updatedAt": "2023-01-16T21:06:46Z",
+      "announcer": "ixo19h3lqj50uhzdrv8mkafnp55nqmz4ghc2sd3m48",
       "replies": 19,
-      "daos": ["ixodaogroup1", "ixodaogroup2"]
+      "groupId": "ixodaogroup1"
     },
     {
       "title": "Extend the project duration target for educational xxx bbb ccc",
       "description": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
-      "timestamp": "2023-02-09T12:34:49.836Z",
-      "announcer": "https://randomuser.me/api/portraits/men/1.jpg",
+      "createdAt": "2022-07-15T23:20:51Z",
+      "updatedAt": "2022-08-25T01:15:44Z",
+      "announcer": "ixo1m0wheltckf3t9xtvq6rhfwrpr9frgckgmvjngx",
       "replies": 29,
-      "daos": ["ixodaogroup2", "ixodaogroup3"]
+      "groupId": "ixodaogroup2"
     },
     {
       "title": "Extend the project duration target for educational xxx bbb ccc",
       "description": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
-      "timestamp": "2023-02-09T12:34:49.836Z",
-      "announcer": "https://randomuser.me/api/portraits/men/41.jpg",
+      "createdAt": "2022-12-21T12:58:55Z",
+      "updatedAt": "2023-01-16T13:11:52Z",
+      "announcer": "ixo19h3lqj50uhzdrv8mkafnp55nqmz4ghc2sd3m48",
       "replies": 1,
-      "daos": ["ixodaogroup4", "ixodaogroup5"]
+      "groupId": "ixodaogroup1"
     },
     {
       "title": "Extend the project duration target for educational xxx bbb ccc",
       "description": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
-      "timestamp": "2023-02-09T12:34:49.836Z",
-      "announcer": "https://randomuser.me/api/portraits/men/74.jpg",
+      "createdAt": "2022-03-06T20:05:20Z",
+      "updatedAt": "2022-08-06T16:00:58Z",
+      "announcer": "ixo1g0d744v2jw7gvjykw22dew9cpr55w7mwxk9wmf",
       "replies": 11,
-      "daos": ["ixodaogroup1", "ixodaogroup3"]
+      "groupId": "ixodaogroup3"
     },
     {
       "title": "Extend the project duration target for educational xxx bbb ccc",
       "description": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
-      "timestamp": "2023-02-09T12:34:49.836Z",
-      "announcer": "https://randomuser.me/api/portraits/men/72.jpg",
+      "createdAt": "2022-08-20T20:57:20Z",
+      "updatedAt": "2022-09-24T13:56:00Z",
+      "announcer": "ixo12wgrrvmx5jx2mxhu6dvnfu3greamemnqfvx84a",
       "replies": 75,
-      "daos": ["ixodaogroup2", "ixodaogroup4"]
+      "groupId": "ixodaogroup4"
+    },
+    {
+      "title": "Extend the project duration target for educational xxx bbb ccc",
+      "description": "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
+      "createdAt": "2022-01-31T19:07:39Z",
+      "updatedAt": "2022-05-16T06:05:28Z",
+      "announcer": "ixo12wgrrvmx5jx2mxhu6dvnfu3greamemnqfvx84a",
+      "replies": 75,
+      "groupId": "ixodaogroup5"
     }
   ],
   "proposals": [
@@ -311,13 +325,7 @@
       "description": "Extend the project end-date to Sep 2020",
       "startDate": "2022-02-09T12:34:49.836Z",
       "endDate": "2024-02-09T12:34:49.836Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "id": 2,
@@ -325,13 +333,7 @@
       "description": "Extend the project end-date to Sep 2020",
       "startDate": "2022-02-09T12:34:49.836Z",
       "endDate": "2024-02-09T12:34:49.836Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "id": 3,
@@ -339,741 +341,355 @@
       "description": "Extend the project end-date to Sep 2020",
       "startDate": "2022-02-09T12:34:49.836Z",
       "endDate": "2024-02-09T12:34:49.836Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
+    },
+    {
+      "id": 4,
+      "title": "Next up",
+      "description": "Extend the project end-date to Sep 2020",
+      "startDate": "2022-02-09T12:34:49.836Z",
+      "endDate": "2024-02-09T12:34:49.836Z",
+      "groupId": "ixodaogroup2"
+    },
+    {
+      "id": 5,
+      "title": "Next up",
+      "description": "Extend the project end-date to Sep 2020",
+      "startDate": "2022-02-09T12:34:49.836Z",
+      "endDate": "2024-02-09T12:34:49.836Z",
+      "groupId": "ixodaogroup2"
     }
   ],
   "votes": [
     {
       "votes": 4000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2780,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 1890,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2390,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3490,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 1890,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2390,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3490,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 4000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2780,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 1890,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2390,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3490,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 4000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2780,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 1890,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2390,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3490,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 4000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2780,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 1890,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2390,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3490,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 1890,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2390,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3490,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 4000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2780,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 1890,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2390,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3490,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 4000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2780,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 1890,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2390,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3490,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 4000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2780,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 1890,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2390,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3490,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 1890,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2390,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3490,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 4000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2000,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2780,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 1890,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 2390,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 3490,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "votes": 278,
       "timestamp": "2023-02-09T21:53:40.585Z",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup2"
     }
   ],
   "transactions": [
@@ -1085,13 +701,7 @@
       "value": "1500",
       "status": "approved",
       "hash": "0x00dfej2r",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     },
     {
       "age": "4 days",
@@ -1101,13 +711,7 @@
       "value": "1500",
       "status": "rejected",
       "hash": "0x442dfej2r",
-      "daos": [
-        "ixodaogroup1",
-        "ixodaogroup2",
-        "ixodaogroup3",
-        "ixodaogroup4",
-        "ixodaogroup5"
-      ]
+      "groupId": "ixodaogroup1"
     }
   ],
   "profiles": [

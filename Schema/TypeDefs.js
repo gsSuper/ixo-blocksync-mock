@@ -37,8 +37,10 @@ const typeDefs = gql`
   type DAOAnnouncement {
     title: String
     description: String
-    announcer: String
-    timestamp: String
+    announcerAddress: String
+    announcerAvatar: String
+    createdAt: String
+    updatedAt: String
     replies: Int
   }
 
@@ -112,16 +114,25 @@ const typeDefs = gql`
 
   # Queries
   type Query {
-    getAllDAOGroups: [DAOGroup!]
-    getMembershipInfo(groupId: String): DAOGroupMembership
-    getAnnouncements(groupId: String, sortBy: String): [DAOAnnouncement]
-    getProposals(groupId: String): [DAOProposal]
-    getVotes(groupId: String): [DAOVote]
-    getTransactions(groupId: String): [DAOTransaction]
-    getClaimStatus(groupId: String): DAOClaimStatus
-    getOutcomeContractStatus(groupId: String): DAOOutcomeContractStatus
-    getTreasuryPools(groupId: String): DAOTreasuryPool
+    getAllDAOGroups(daoId: String!): [DAOGroup!]
+    getMembershipInfo(daoId: String!, groupIds: [String!]): DAOGroupMembership
+    getAnnouncements(
+      daoId: String!
+      groupIds: [String!]
+      filterBy: String
+      limit: Int
+    ): [DAOAnnouncement]
+    getProposals(daoId: String!, groupIds: [String!]): [DAOProposal]
+    getVotes(daoId: String!, groupIds: [String!]): [DAOVote]
+    getTransactions(daoId: String!, groupIds: [String!]): [DAOTransaction]
+    getClaimStatus(daoId: String!, groupIds: [String!]): DAOClaimStatus
+    getOutcomeContractStatus(
+      daoId: String!
+      groupIds: [String!]
+    ): DAOOutcomeContractStatus
+    getTreasuryPools(daoId: String!): DAOTreasuryPool
     getMembers(
+      daoId: String!
       groupId: String
       status: String
       keyword: String

@@ -10,7 +10,8 @@ const {
 
 const resolvers = {
   Query: {
-    getAllDAOGroups: () => {
+    getAllDAOGroups: (parent, args) => {
+      const { daoId } = args;
       return daoGroups.map((group) => ({
         ...group,
         members: daoMembers.filter((member) =>
@@ -19,10 +20,9 @@ const resolvers = {
       }));
     },
     getMembershipInfo: (parent, args) => {
-      const { groupId } = args;
-      const group = daoGroups.find((group) => group.address === groupId);
+      const { daoId, groupIds } = args;
       const members = daoMembers.filter((member) =>
-        member.daos.includes(group?.address)
+        member.daos.some((groupId) => groupIds.includes(groupId))
       );
 
       return {
@@ -34,27 +34,53 @@ const resolvers = {
       };
     },
     getAnnouncements: (parent, args) => {
-      const { groupId, sortBy } = args;
-      return announcements.filter((announcement) =>
-        announcement?.daos.includes(groupId)
-      );
+      const { daoId, groupIds, filterBy, limit } = args;
+      return announcements
+        .filter((announcement) => groupIds.includes(announcement.groupId))
+        .sort((a, b) => {
+          switch (filterBy) {
+            case "newest":
+            default:
+              return new Date(a.createdAt).getTime() <
+                new Date(b.createdAt).getTime()
+                ? 1
+                : -1;
+            case "trending":
+              return new Date(a.updatedAt).getTime() <
+                new Date(b.updatedAt).getTime()
+                ? 1
+                : -1;
+            case "most_activity":
+              return a.replies < b.replies ? 1 : -1;
+          }
+        })
+        .slice(0, limit)
+        .map((item) => ({
+          ...item,
+          announcerAddress: item.announcer,
+          announcerAvatar: daoMembers.find(
+            (member) => member.address === item.announcer
+          )?.avatar,
+        }));
     },
     getProposals: (parent, args) => {
-      const { groupId } = args;
-      return proposals.filter((proposal) => proposal?.daos.includes(groupId));
+      const { daoId, groupIds } = args;
+      return proposals.filter((proposal) =>
+        groupIds.includes(proposal.groupId)
+      );
     },
     getVotes: (parent, args) => {
-      const { groupId } = args;
-      return votes.filter((vote) => vote?.daos.includes(groupId));
+      const { daoId, groupIds } = args;
+      return votes.filter((vote) => groupIds.includes(vote.groupId));
     },
     getTransactions: (parent, args) => {
-      const { groupId } = args;
+      const { daoId, groupIds } = args;
       return transactions.filter((transaction) =>
-        transaction?.daos.includes(groupId)
+        groupIds.includes(transaction.groupId)
       );
     },
     getClaimStatus: (parent, args) => {
-      const { groupId } = args;
+      const { daoId, groupIds } = args;
       return {
         approveds: 1124,
         pendings: 224,
@@ -64,7 +90,7 @@ const resolvers = {
       };
     },
     getOutcomeContractStatus: (parent, args) => {
-      const { groupId } = args;
+      const { daoId, groupIds } = args;
       return {
         actives: 1124,
         completeds: 224,
@@ -73,7 +99,7 @@ const resolvers = {
       };
     },
     getTreasuryPools: (parent, args) => {
-      const { groupId } = args;
+      const { daoId } = args;
       return {
         totalVolumeUSD: "230750",
         dayChanges: 0.14,
@@ -97,7 +123,7 @@ const resolvers = {
       };
     },
     getMembers: (parent, args) => {
-      const { groupId, status, keyword, sortBy, order } = args;
+      const { daoId, groupId, status, keyword, sortBy, order } = args;
       return daoMembers
         .filter(
           (member) =>
