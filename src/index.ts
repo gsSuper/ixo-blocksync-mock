@@ -1,7 +1,7 @@
-const { ApolloServer } = require("apollo-server-express");
-const express = require("express");
-const { typeDefs } = require("./Schema/TypeDefs");
-const { resolvers } = require("./Schema/Resolvers");
+import { ApolloServer } from "apollo-server-express";
+import express from "express";
+import { typeDefs } from "./Schema/TypeDefs";
+import { resolvers } from "./Schema/Resolvers";
 
 const app = express();
 
@@ -9,7 +9,7 @@ const server = new ApolloServer({ typeDefs, resolvers });
 
 const PORT = process.env.PORT || 5000;
 
-server.start().then((res) => {
+server.start().then(() => {
   server.applyMiddleware({ app });
 
   app.listen({ port: PORT }, () => {
