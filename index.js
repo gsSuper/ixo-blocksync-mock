@@ -7,10 +7,12 @@ const app = express();
 
 const server = new ApolloServer({ typeDefs, resolvers });
 
+const PORT = process.env.PORT || 5000;
+
 server.start().then((res) => {
   server.applyMiddleware({ app });
 
-  app.listen({ port: 5000 }, () => {
-    console.log("Server running on port 5000");
+  app.listen({ port: PORT }, () => {
+    console.log(`Server running on port ${PORT}`);
   });
 });
